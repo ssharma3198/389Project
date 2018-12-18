@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+    <title>Final Project</title>
+</head>
+<body>
+<div class="Review">
+  <div class="Review-details">    
+    <div class="Review-meta">
+      <p class="Review-author">{{author}}</p>
+      <p class="Review-date">{{date}}</p>
+      <div class="Review-rating">
+        {{#each people}}
+          {{if this}}
+            <span class="Review-star Review-star--active">&#9733;</span>
+          {{else}}
+            <span class="Review-star">&#9733;</span>
+          {{/if}}
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="Review-body">
+    <h3 class="Review-title">The heat had forced its shells apart, and the meat, salmon-colored, was thoroughly cooked.</h3>
+    <p>That makes what I call one hundred. Remember that word—one hundred. Now I put this pebble in Hare-Lip's hand. It stands for ten grains of sand, or ten tens of fingers, or <strong>one hundred fingers</strong>. I put in ten pebbles. They stand for a <em>thousand</em> fingers. I take a mussel-shell, and it stands for ten pebbles, or one hundred grains of sand, or one thousand fingers&hellip;" And so on, laboriously, and with much reiteration, he strove to build up in their minds a crude conception of numbers.<br><br>
+    As the quantities increased, he had the boys holding different magnitudes in each of their hands. For still higher sums, he laid the symbols on the log of driftwood; and for symbols he was hard put, being compelled to use the teeth from the skulls for millions, and the crab-shells for billions.</p>
+
+    <img src="https://unsplash.it/600/300">
+  </div>
+</div>
+</body>
+</html>
